@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Showroom implements utility {
+public class Showroom implements Utility {
 
 
     String showroom_name;
@@ -37,6 +37,6 @@ public class Showroom implements utility {
 
         System.out.println("Total cars in Stock: ");
         total_cars_in_stock=sc.nextInt();
-        
+
     }
 }
